@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Villa Solace",
+    "price": "47,043",
+    "detail": "A serene 3-bedroom villa designed for comfort and tranquility in the heart of Devanahalli. Perfect for families seeking luxury and peace.",
+    "image": "./r1.png" 
+  },
+  {
+    "name": "The Verdant Haven",
+    "price": "66,353",
+    "detail": "Nestled amidst greenery, this 3-bedroom villa offers a blend of modern design and nature's charm.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Aurora Retreat",
+    "price": "35,853",
+    "detail": "Experience the golden hues of comfort and style in this contemporary villa, a jewel of Devanahalli.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Harmony Heights",
+    "price": "47,043",
+    "detail": "A luxurious 3-bedroom villa crafted for elegance and functionality, ensuring every day feels like a vacation.",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Ethereal Abode",
+    "price": "66,353",
+    "detail": "Your dream home awaits – a stunning villa where modernity meets timeless beauty.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "The Golden Nest",
+    "price": "35,853",
+    "detail": "A premium 3-bedroom villa offering a perfect balance of luxury and practicality in Devanahalli.",
+    "image": "./r3.png"
+  }
+]
