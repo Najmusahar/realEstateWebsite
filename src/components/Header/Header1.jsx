@@ -7,7 +7,7 @@ const   Header1 = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-        <img src="./logoooo.png" alt="logo" width={100} />
+        <a href="/"> <img src="./logoooo.png" alt="logo" width={100} /></a>
         </div>
         
         <div className="search-bar">

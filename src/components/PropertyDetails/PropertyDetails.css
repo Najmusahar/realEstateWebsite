@@ -1,6 +1,4 @@
-/* PropertyDetails.css */
 
-/* Main container */
 .details-page {
   display: flex;
   justify-content: space-between;
@@ -9,7 +7,6 @@
   flex-wrap: wrap;
 }
 
-/* Content (left side) */
 .content {
   flex: 1;
   padding: 20px;
@@ -18,7 +15,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Image (right side) */
 .image {
   flex: 1;
   text-align: center;
@@ -30,21 +26,19 @@
   border-radius: 8px;
 }
 
-/* Title */
+
 h1 {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Price */
 .price {
   font-size: 22px;
   color: #ff5722;
   margin-bottom: 15px;
 }
 
-/* Property Info */
 .property-info {
   margin-top: 20px;
 }
@@ -58,14 +52,14 @@ h1 {
   font-weight: bold;
 }
 
-/* Detail description */
+
 .detail {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .details-page {
     flex-direction: column;
@@ -78,5 +72,155 @@ h1 {
 
   .image {
     margin-top: 20px;
+  }
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.info-item {
+  font-size: 14px;
+}
+
+.info-item strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.nearby-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.nearby-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.nearby-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.dropdown {
+  margin-top: p6x;
+  padding: 5px;
+  font-size: 14px;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  width: 70%;
+}
+
+
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  flex: 1;
+  background-color: #00bcd4; /* Teal background */
+  color: white;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.left-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.left-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.right-section {
+  flex: 1;
+  background-color: white;
+  padding: 40px;
+}
+
+.right-section h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.right-section p {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #008c9e;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    border-radius: 0;
   }
 }
